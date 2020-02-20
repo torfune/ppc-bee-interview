@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', -apple-system;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 32px 24px;
+}
