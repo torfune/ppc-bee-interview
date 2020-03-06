@@ -15,10 +15,11 @@ const FilterSection: FC<Props> = ({ activeColumns, toggleColumn }) => (
       <FilterItem key={key}>
         <input
           type="checkbox"
+          id={field}
           checked={activeColumns.includes(field)}
           onChange={() => toggleColumn(field)}
         />
-        <Label>{field}</Label>
+        <StyledLabel htmlFor={field}>{field}</StyledLabel>
       </FilterItem>
     ))}
   </Container>
@@ -39,7 +40,7 @@ const FilterItem = styled.div`
   align-items: center;
   margin-top: 12px;
 `
-const Label = styled.p`
+const StyledLabel = styled.label`
   margin-left: 8px;
 `
 
