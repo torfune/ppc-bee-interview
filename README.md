@@ -1,4 +1,4 @@
-Simple UI application written in TypeScript/React for PPC Bee interview process.
+Tiny interactive table prototype written in TypeScript/React for PPC Bee interview process.
 
 ## Live demo
 
